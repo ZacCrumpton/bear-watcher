@@ -1,6 +1,6 @@
 import bears from './javascripts/components/bears.js';
 
-init = () => {
+const init = () => {
   bears.bearFormBuilder();
 };
 
