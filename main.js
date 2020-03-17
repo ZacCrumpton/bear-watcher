@@ -1,1 +1,7 @@
-console.log('helloworld')
+import bears from './javascripts/components/bears.js';
+
+const init = () => {
+  bears.bearFormBuilder();
+};
+
+init();
