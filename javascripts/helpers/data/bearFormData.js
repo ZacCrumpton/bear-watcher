@@ -1,9 +1,8 @@
-const bearArray = [];
-
-const getBearArray = () => {
-    return bearArray
+const getBears = () => {
+  return bears;
 };
 
-getBearArray();
+const bears = [];
 
-export default { getBearArray }
+
+export default { getBears };
