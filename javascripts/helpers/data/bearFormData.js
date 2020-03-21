@@ -1,7 +1,8 @@
-const bearArray = [
-    
-]
+const getBears = () => {
+  return bears;
+};
 
-const getBears = () => bearArray;
+const bears = [];
 
-export default { getBears }
+
+export default { getBears };

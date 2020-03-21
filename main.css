@@ -1,3 +1,37 @@
 body {
     background-color: slategray;
 }
+
+#bearFormContainer{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 200px;
+    background-color: darkslategray;
+    margin-left: 100px;
+    padding-top: 25px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+#bearForm{
+    background-color: darkslategray;
+    width: 800px;
+}
+
+#bearRiverContainer{
+    margin-left: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: lightslategray;
+    width: 1200px;
+    height: max-content;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.bearCard{
+    margin-bottom: 50px;
+    padding: 25px;
+}
